@@ -1,0 +1,36 @@
+{
+  "name": "webpack-babel-npm-starterpack",
+  "version": "1.0.0",
+  "description": "Basic configuration for webpack and babel with dev-server",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpgiroux/webpack-babel-npm-starterpack"
+  },
+  "keywords": [],
+  "author": "Jp Giroux et Seb Lalonde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpgiroux/webpack-babel-npm-starterpack/issues"
+  },
+  "homepage": "https://github.com/jpgiroux/webpack-babel-npm-starterpack#readme"
+}
